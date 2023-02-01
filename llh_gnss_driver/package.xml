@@ -12,6 +12,10 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
+  <build_depends>message_generation</build_depend>
+
+  <exec_depend>message_runtime</exec_depend>
+
   <exec_depend>rospy</exec_depend>
   <exec_depend>http_relay</exec_depend>  
   <exec_depend>geometry_msgs</exec_depend>
